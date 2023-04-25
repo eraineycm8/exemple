@@ -13,7 +13,8 @@ include('protected.php');
 </head>
 <body>
     <h1>Bem vindo ao painel</h1>
-    <span><?php echo $_SESSION['nome'];  ?></span>
+    <h3><?php echo $_SESSION['nome'];  ?></h3>
+    <br><br>
     <div>
         <button><a href="contatos/index.php">Listar Contatos</a></button>
     </div>
