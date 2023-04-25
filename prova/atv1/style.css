@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
+}
+.col1 {
+    float: left;
+    width: 200px;
+        margin: 10px;
+}
+.col2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.logo{
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+.dificuldade{
+    display: list-item;
+    color: white;
+    background-color: red;
+
+}

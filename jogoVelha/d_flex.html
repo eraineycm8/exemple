@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Flex</title>
+    <link rel="stylesheet" href="styleDflex.css">
+</head>
+<body>
+    <div class="container">
+        <div class="containerSide">
+            <div class="qazul">
+                <h3><span class="logo">X</span> & <span class="logo">O</span></h3>
+                <span>Diversão o tempo todo</span>
+            </div>
+            <div class="qcinza">
+                <div class="iRadio"><input type="radio" name="qcinza" id="humano">     <label for="humano">Humano vs Humano</label></div>
+                <div class="iRadio"><input type="radio" name="qcinza" id="facil">      <label for="facil">Fácil</label>          </div>
+                <div class="iRadio"><input type="radio" name="qcinza" id="normal">     <label for="normal">Normal</label>        </div>
+                <div class="iRadio"><input type="radio" name="qcinza" id="dificil">    <label for="dificil">Difícil</label>      </div>
+                <div class="iRadio"><input type="radio" name="qcinza" id="impossivel"> <label for="impossivel">Impossível</label></div>
+            </div>
+        </div>
+        <div class="containerSide">
+            <div class="qlaranja">
+                <div class="column">
+                    <div class="quadrado" id="a1"></div>
+                    <div class="quadrado" id="a2"></div>
+                    <div class="quadrado" id="a3"></div>
+                </div>
+                <div class="column">
+                    <div class="quadrado" id="b1"></div>
+                    <div class="quadrado" id="b2"></div>
+                    <div class="quadrado" id="b3"></div>
+                </div>
+                <div class="column">
+                    <div class="quadrado" id="c1"></div>
+                    <div class="quadrado" id="c2"></div>
+                    <div class="quadrado" id="c3"></div>
+                </div>
+                
+            </div>
+            <div class="qamarela">
+                <div class="rowPlacar"><span class="lPlacar" id="lPlacarX">X</span>    <div class="placar" id="placarX">   <span>0</span></div></div>
+                <div class="rowPlacar"><span class="lPlacar" id="lPlacarDraw">Empate</span> <div class="placar" id="placarDraw"><span>0</span></div></div>
+                <div class="rowPlacar"><span class="lPlacar" id="lPlacarO">O   </span>    <div class="placar" id="placarO">   <span>0</span></div></div>
+            </div>
+        </div>
+    </div>    
+    <div class="container">
+        <div class="footer">
+            <div class="tools">
+                <button type="reset" onclick="resetScore()">Limpar Placar</button>
+                <button type="reset" onclick="newGame()">Novo jogo</button>
+            </div>
+            <div class="status">
+                <span>O X venceu</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="scriptVelha.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+.container{
+    background-color: white;
+    font-family: calibri, arial, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-flow: row nowrap; /*Comando shorthand para flex-direction e flex-wrap*/
+}
+.containerSide{
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+
+    align-items: stretch;
+    justify-content: center;
+
+    /*align-content: flex-end; /* Propriedade sem efeito quando há apenas uma linha de flex items*/
+}
+
+.qazul{
+    background-color: blueviolet;
+    color: violet;
+    font-family: sans-serif;
+
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+
+    align-items: center;
+    align-content: stretch;
+    justify-content: stretch;
+}
+.logo{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+}
+.qcinza{
+    background-color: violet;
+    color: blueviolet;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+}
+.iRadio{
+    padding: 0px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+
+div.iRadio:has(input[type="radio"]:checked){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    color: blueviolet;
+}
+
+.qlaranja{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.column{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: olive;
+
+    display: flex;
+    flex-direction: column;
+}
+.quadrado{
+    background-color: violet ;
+    color: blueviolet;
+    width: 3em;
+    height: 3em;
+    border: 1px solid blueviolet;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qamarela{
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    width: 9.3em ;
+
+    border: 1px solid blueviolet;
+
+    /*
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    */
+
+}
+.rowPlacar{
+    font-size: 1.1em;
+    
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: space-between;
+}
+.lPlacar{
+    background-color: blueviolet;
+    color: violet;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+    flex-grow: 3;
+}
+.placar{
+    background-color: violet;
+    color: blueviolet;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+    width: 2em;
+}
+
+.footer{
+    background-color: violet;
+    color: blueviolet;
+    font-family: calibri, arial, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 3px;
+    width: 19.1em;
+}
+
+.tools{
+    background-color: violet;
+    color: blueviolet;
+    font-family: calibri, arial, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 18.6em;
+}
+.status{
+    width: 18.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: none;
+}
