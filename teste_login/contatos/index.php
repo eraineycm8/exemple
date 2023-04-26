@@ -14,12 +14,15 @@
     if ($sql_query->num_rows >0 ){
 
         echo "<table>";
-        echo "<tr><th>ID</th><th>Nome</th><th>Telefone</th><th>Idade</th><th>Rua</th><th>Número</th><th>Bairro</th><th>Cidade</th><th>Estado</th><th>País</th><th>Email</th></tr>";
+        echo "<tr><th>Funções</th><th>Nome</th><th>Telefone</th></tr>";
+        //echo "<tr><th>Funções</th><th>Nome</th><th>Telefone</th><th>Idade</th><th>Rua</th><th>Número</th><th>Bairro</th><th>Cidade</th><th>Estado</th><th>País</th><th>Email</th></tr>";
         while ($linha = $sql_query->fetch_assoc()) {
-            echo "<tr><td>" . $linha["idcontato"] . "</td><td>" . $linha["nome"] . "</td><td>" . $linha["telefone"] . "</td><td>" . $linha["idade"] . "</td><td>" . $linha["rua"] . "</td><td>" . $linha["numero"] . "</td><td>" . $linha["bairro"] . "</td><td>" . $linha["cidade"] . "</td><td>" . $linha["estado"] . "</td><td>" . $linha["pais"] . "</td><td>" . $linha["email"] . "</td></tr>";
+            // echo "<tr><td>" . $linha["idcontato"] . "</td><td>" . $linha["nome"] . "</td><td>" . $linha["telefone"] . "</td><td>" . $linha["idade"] . "</td><td>" . $linha["rua"] . "</td><td>" . $linha["numero"] . "</td><td>" . $linha["bairro"] . "</td><td>" . $linha["cidade"] . "</td><td>" . $linha["estado"] . "</td><td>" . $linha["pais"] . "</td><td>" . $linha["email"] . "</td></tr>";
+            echo "<tr><td>"  . '<a href="edit.php?id='.$linha["idcontato"].'"><button>Editar</button></a><a href="delete.php?id='.$linha["idcontato"].'"><button>Excluir</button></a>' . "</td><td>" . $linha["nome"] . "</td><td>" . $linha["telefone"] . "</td></tr>";
         }
         echo "</table>";
     } else {
         echo "Nenhum registro encontrado.";
     }
 ?>
+

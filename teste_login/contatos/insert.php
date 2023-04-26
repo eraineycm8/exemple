@@ -85,7 +85,7 @@
     </script>
 </head>
 <body>
-    <h1>Inserir Novo Contato</h1>
+    <h1>Novo Contato</h1>
     <form id="formulario">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br>
