@@ -108,6 +108,7 @@
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email"><br>
         <input type="submit" value="Salvar">
+        <a href="index.php"><button type="button">CANCELAR</button></a>
     </form>
 </body>
 </html>
