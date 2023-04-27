@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carros>
+  <carro>
+    <id>1</id>
+    <marca>Fiat</marca>
+    <modelo>Uno</modelo>
+    <ano>2022</ano>
+    <cor>Branco</cor>
+    <preco>40000</preco>
+  </carro>
+  <carro>
+    <id>2</id>
+    <marca>Volkswagen</marca>
+    <modelo>Gol</modelo>
+    <ano>2021</ano>
+    <cor>Preto</cor>
+    <preco>45000</preco>
+  </carro>
+  <carro>
+    <id>3</id>
+    <marca>Chevrolet</marca>
+    <modelo>Onix</modelo>
+    <ano>2022</ano>
+    <cor>Vermelho</cor>
+    <preco>50000</preco>
+  </carro>
+  <carro>
+    <id>4</id>
+    <marca>Renault</marca>
+    <modelo>Kwid</modelo>
+    <ano>2020</ano>
+    <cor>Cinza</cor>
+    <preco>35000</preco>
+  </carro>
+</carros>
