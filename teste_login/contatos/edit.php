@@ -28,7 +28,7 @@
         echo '<label for="email">E-mail:</label><input type="text" name="email" value="'.$contato['email'].'"><br>';
 //        echo '<input type="submit" value="Salvar">';
         echo '<button type="submit">Salvar</button>';
-        echo '<a href="index.php"><button type="button">Cancelar</button></a>';
+        echo '<a href="index.php"><button type="button">Cancelar</button></a>'; // SUPER IMPORTANTE NOTAR QUE O TYPE="BUTTON" É CRUCIAL PARA FUNCIONAR COMO CANCELAR PQ SE NÃO POR ESTAR DENTRO DE UM FORM ELE PASSA A SER INTERPRETADO COMO SUBMIT
         echo '</form>';
     } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
         $idContato = $_POST["id"];
