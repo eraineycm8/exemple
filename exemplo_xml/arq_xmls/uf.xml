@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estados>
+  <estado>
+    <uf>AC</uf>
+    <nome>Acre</nome>
+    <populacao>894470</populacao>
+  </estado>
+  <estado>
+    <uf>AL</uf>
+    <nome>Alagoas</nome>
+    <populacao>3351543</populacao>
+  </estado>
+  <estado>
+    <uf>AP</uf>
+    <nome>Amapá</nome>
+    <populacao>861773</populacao>
+  </estado>
+  <estado>
+    <uf>AM</uf>
+    <nome>Amazonas</nome>
+    <populacao>4207714</populacao>
+  </estado>
+  <estado>
+    <uf>BA</uf>
+    <nome>Bahia</nome>
+    <populacao>14930634</populacao>
+  </estado>
+  <estado>
+    <uf>CE</uf>
+    <nome>Ceará</nome>
+    <populacao>9187103</populacao>
+  </estado>
+  <estado>
+    <uf>ES</uf>
+    <nome>Espírito Santo</nome>
+    <populacao>4064052</populacao>
+  </estado>
+  <estado>
+    <uf>GO</uf>
+    <nome>Goiás</nome>
+    <populacao>7113540</populacao>
+  </estado>
+  <estado>
+    <uf>MA</uf>
+    <nome>Maranhão</nome>
+    <populacao>7114598</populacao>
+  </estado>
+  <estado>
+    <uf>MT</uf>
+    <nome>Mato Grosso</nome>
+    <populacao>3526220</populacao>
+  </estado>
+  <estado>
+    <uf>MS</uf>
+    <nome>Mato Grosso do Sul</nome>
+    <populacao>2828760</populacao>
+  </estado>
+  <estado>
+    <uf>MG</uf>
+    <nome>Minas Gerais</nome>
+    <populacao>21292666</populacao>
+  </estado>
+  <estado>
+    <uf>PA</uf>
+    <nome>Pará</nome>
+    <populacao>8690745</populacao>
+  </estado>
+  <estado>
+    <uf>PB</uf>
+    <nome>Paraíba</nome>
+    <populacao>4064521</populacao>
+  </estado>
+  <estado>
+    <uf>PR</uf>
+    <nome>Paraná</nome>
+    <populacao>11516840</populacao>
+  </estado>
+  <estado>
+    <uf>PE</uf>
+    <nome>Pernambuco</nome>
+    <populacao>9616621</populacao>
+  </estado>
+  <estado>
+    <uf>PI</uf>
+    <nome>Piauí</nome>
+    <populacao>3273227</populacao>
+  </estado>
+  <estado>
+    <uf>RJ</uf>
+    <nome>Rio de Janeiro</nome>
+    <populacao>17366189</populacao>
+  </estado>
+  <estado>
+    <uf>RN</uf>
+    <nome>Rio Grande do Norte</nome>
+    <populacao>3409138</populacao>
+  </estado>
+  <estado>
+    <uf>RS</uf>
+    <nome>Rio Grande do Sul</nome>
+    <populacao>11377239</populacao>
+  </estado>
+  <estado>
+    <uf>RO</uf>
+    <nome>Rondônia</nome>
+    <populacao>1796460</populacao>
+  </estado>
+  <estado>
+    <uf>RR</uf>
+    <nome>Roraima</nome>
+    <populacao>631181</populacao>
+  </estado>
+  <estado>
+    <uf>SC</uf>
+    <nome>Santa Catarina</nome>
+    <populacao>7252502</populacao>
+  </estado>
+  <estado>
+    <uf>SP</uf>
+    <nome>São Paulo</nome>
+    <populacao>46289333</populacao>
+  </estado>
+  <estado>
+    <uf>SE</uf>
+    <nome>Sergipe</nome>
+    <populacao>2318822</populacao>
+  </estado>
+  <estado>
+    <uf>TO</uf>
+    <nome>Tocantins</nome>
+    <populacao>1590248</populacao>
+  </estado>
+</estados>

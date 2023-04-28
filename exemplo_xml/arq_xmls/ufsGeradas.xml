@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estados>
+  <estado>
+    <uf>PE</uf>
+    <nome>Pernambuco</nome>
+    <populacao>9278135</populacao>
+  </estado>
+  <estado>
+    <uf>SP</uf>
+    <nome>São Paulo</nome>
+    <populacao>45143258</populacao>
+  </estado>
+</estados>
